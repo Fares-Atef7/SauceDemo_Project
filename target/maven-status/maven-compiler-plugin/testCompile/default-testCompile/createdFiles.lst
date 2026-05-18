@@ -1,0 +1,14 @@
+com\SauceDemo\Swanglabs\TestCase\EndToEndTest.class
+com\SauceDemo\Swanglabs\TestCase\LoginTest.class
+com\SauceDemo\Swanglabs\Factory\DriverFactory.class
+com\SauceDemo\Swanglabs\API\TasksApi.class
+com\SauceDemo\Swanglabs\TestCase\ProductTest.class
+com\SauceDemo\Swanglabs\Config\ConfigUtils.class
+com\SauceDemo\Swanglabs\Bases\BaseTest.class
+com\SauceDemo\Swanglabs\TestCase\CheckoutTest.class
+com\SauceDemo\Swanglabs\API\RegisterAPI.class
+com\SauceDemo\Swanglabs\TestCase\inventoryTest.class
+com\SauceDemo\Swanglabs\TestCase\CartTest.class
+com\SauceDemo\Swanglabs\TestCase\RestAssuredTest.class
+com\SauceDemo\Swanglabs\Config\CookieUtils.class
+com\SauceDemo\Swanglabs\Config\ENDPOINT.class

@@ -1,0 +1,15 @@
+Utilis\Scroll.class
+Bases\BasePage.class
+Objects\Task.class
+Pages\CheckoutPages\CheckoutInfoPage.class
+Pages\CartPage.class
+Pages\CheckoutPages\CheckoutOverviewPage.class
+Utilis\ElementUtils.class
+Pages\CheckoutPages\CheckoutCompletePage.class
+Pages\ProductPage.class
+org\example\Main.class
+Utilis\UserFakeGeneration.class
+Pages\LoginPage.class
+Objects\User.class
+Pages\InventoryPage.class
+Utilis\PropertiesUtils.class
