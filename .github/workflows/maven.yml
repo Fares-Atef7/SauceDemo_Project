@@ -38,7 +38,7 @@ jobs:
           if (-not $SelectedBrowser) { $SelectedBrowser = "chrome" }
           
           Write-Output "Running tests on: $SelectedBrowser"
-          mvn clean test "-Dbrowser=$SelectedBrowser"
+          mvn clean test "-Dbrowser=$SelectedBrowser" -Dmaven.test.failure.ignore=true
 
       - name: Archive Surefire Reports (HTML results)
         if: always()

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="14" failed="7" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T00:52:22 EEST" name="Surefire suite" finished-at="2026-05-19T00:53:53 EEST" duration-ms="90431">
+  <suite started-at="2026-05-19T01:38:56 EEST" name="Surefire suite" finished-at="2026-05-19T01:39:57 EEST" duration-ms="60929">
     <groups>
     </groups>
-    <test started-at="2026-05-19T00:52:22 EEST" name="Surefire test" finished-at="2026-05-19T00:53:53 EEST" duration-ms="90431">
+    <test started-at="2026-05-19T01:38:56 EEST" name="Surefire test" finished-at="2026-05-19T01:39:57 EEST" duration-ms="60929">
       <class name="com.SauceDemo.Swanglabs.TestCase.EndToEndTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.EndToEndTest@5246a3b3]" started-at="2026-05-19T00:52:43 EEST" name="setUp" finished-at="2026-05-19T00:52:44 EEST" duration-ms="1488" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.EndToEndTest@7f8633ae]" started-at="2026-05-19T01:39:15 EEST" name="setUp" finished-at="2026-05-19T01:39:18 EEST" duration-ms="3054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="endToEthPurchaseTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.EndToEndTest@5246a3b3]" started-at="2026-05-19T00:52:44 EEST" name="endToEthPurchaseTest" finished-at="2026-05-19T00:53:15 EEST" duration-ms="30698" status="PASS">
+        <test-method signature="endToEthPurchaseTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.EndToEndTest@7f8633ae]" started-at="2026-05-19T01:39:18 EEST" name="endToEthPurchaseTest" finished-at="2026-05-19T01:39:25 EEST" duration-ms="6980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEthPurchaseTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.EndToEndTest@5246a3b3]" started-at="2026-05-19T00:53:15 EEST" name="tearDown" finished-at="2026-05-19T00:53:16 EEST" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.EndToEndTest@7f8633ae]" started-at="2026-05-19T01:39:25 EEST" name="tearDown" finished-at="2026-05-19T01:39:27 EEST" duration-ms="1862" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=endToEthPurchaseTest status=SUCCESS method=EndToEndTest.endToEthPurchaseTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.EndToEndTest@5246a3b3] output={null}]]]>
+                <![CDATA[[TestResult name=endToEthPurchaseTest status=SUCCESS method=EndToEndTest.endToEthPurchaseTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.EndToEndTest@7f8633ae] output={null}]]]>
               </value>
             </param>
           </params>
@@ -28,304 +28,95 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.SauceDemo.Swanglabs.TestCase.EndToEndTest -->
       <class name="com.SauceDemo.Swanglabs.TestCase.CartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:22 EEST" name="setUp" finished-at="2026-05-19T00:52:26 EEST" duration-ms="3301" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:38:56 EEST" name="setUp" finished-at="2026-05-19T01:39:01 EEST" duration-ms="4917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:22 EEST" name="setUp" finished-at="2026-05-19T00:52:26 EEST" duration-ms="3354" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:38:56 EEST" name="setUp" finished-at="2026-05-19T01:39:00 EEST" duration-ms="4404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:22 EEST" name="setUp" finished-at="2026-05-19T00:52:26 EEST" duration-ms="3354" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:38:56 EEST" name="setUp" finished-at="2026-05-19T01:39:00 EEST" duration-ms="4405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="continueShoppingNavigationTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:26 EEST" name="continueShoppingNavigationTest" finished-at="2026-05-19T00:52:31 EEST" duration-ms="5334" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#continue\-shopping"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [76a851ba2466930d4f34f8ac24d3cf27, findElement {value=continue-shopping, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60487}, goog:processID: 11964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60487/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 76a851ba2466930d4f34f8ac24d3cf27]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#continue\-shopping"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [76a851ba2466930d4f34f8ac24d3cf27, findElement {value=continue-shopping, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60487}, goog:processID: 11964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60487/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 76a851ba2466930d4f34f8ac24d3cf27
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-at Utilis.Scroll.scrollToElement(Scroll.java:14)
-at Bases.BasePage.ClickElement(BasePage.java:31)
-at Pages.CartPage.ClickOnContinueShopping(CartPage.java:49)
-at com.SauceDemo.Swanglabs.TestCase.CartTest.continueShoppingNavigationTest(CartTest.java:50)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- continueShoppingNavigationTest -->
-        <test-method signature="navigateToCheckoutTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:26 EEST" name="navigateToCheckoutTest" finished-at="2026-05-19T00:52:31 EEST" duration-ms="5058" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41d0d3172748ff2cde47e2384bb2cd35, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60486}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60486/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41d0d3172748ff2cde47e2384bb2cd35]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41d0d3172748ff2cde47e2384bb2cd35, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60486}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60486/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41d0d3172748ff2cde47e2384bb2cd35
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-at Utilis.Scroll.scrollToElement(Scroll.java:14)
-at Bases.BasePage.ClickElement(BasePage.java:31)
-at Pages.CartPage.clickCheckout(CartPage.java:44)
-at com.SauceDemo.Swanglabs.TestCase.CartTest.navigateToCheckoutTest(CartTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToCheckoutTest -->
-        <test-method signature="removeProductFromCartTestAndVerifyCartIsEmpty()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:26 EEST" name="removeProductFromCartTestAndVerifyCartIsEmpty" finished-at="2026-05-19T00:52:31 EEST" duration-ms="5057" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#remove\-sauce\-labs\-backpack"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b935c9a0a51ed202e51d734b0b1a2a62, findElement {value=remove-sauce-labs-backpack, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60488}, goog:processID: 25880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60488/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b935c9a0a51ed202e51d734b0b1a2a62]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#remove\-sauce\-labs\-backpack"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b935c9a0a51ed202e51d734b0b1a2a62, findElement {value=remove-sauce-labs-backpack, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60488}, goog:processID: 25880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60488/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b935c9a0a51ed202e51d734b0b1a2a62
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-at Utilis.Scroll.scrollToElement(Scroll.java:14)
-at Bases.BasePage.ClickElement(BasePage.java:31)
-at Pages.CartPage.removeBackpack(CartPage.java:59)
-at com.SauceDemo.Swanglabs.TestCase.CartTest.removeProductFromCartTestAndVerifyCartIsEmpty(CartTest.java:20)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="removeProductFromCartTestAndVerifyCartIsEmpty()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:01 EEST" name="removeProductFromCartTestAndVerifyCartIsEmpty" finished-at="2026-05-19T01:39:09 EEST" duration-ms="8645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeProductFromCartTestAndVerifyCartIsEmpty -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:31 EEST" name="tearDown" finished-at="2026-05-19T00:52:33 EEST" duration-ms="1666" status="PASS">
+        <test-method signature="continueShoppingNavigationTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:01 EEST" name="continueShoppingNavigationTest" finished-at="2026-05-19T01:39:09 EEST" duration-ms="8327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShoppingNavigationTest -->
+        <test-method signature="navigateToCheckoutTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:01 EEST" name="navigateToCheckoutTest" finished-at="2026-05-19T01:39:09 EEST" duration-ms="7927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCheckoutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:09 EEST" name="tearDown" finished-at="2026-05-19T01:39:09 EEST" duration-ms="255" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeProductFromCartTestAndVerifyCartIsEmpty status=FAILURE method=CartTest.removeProductFromCartTestAndVerifyCartIsEmpty()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6] output={null}]]]>
+                <![CDATA[[TestResult name=continueShoppingNavigationTest status=SUCCESS method=CartTest.continueShoppingNavigationTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:31 EEST" name="tearDown" finished-at="2026-05-19T00:52:33 EEST" duration-ms="1677" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:09 EEST" name="tearDown" finished-at="2026-05-19T01:39:09 EEST" duration-ms="208" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=navigateToCheckoutTest status=FAILURE method=CartTest.navigateToCheckoutTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6] output={null}]]]>
+                <![CDATA[[TestResult name=navigateToCheckoutTest status=SUCCESS method=CartTest.navigateToCheckoutTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:31 EEST" name="tearDown" finished-at="2026-05-19T00:52:33 EEST" duration-ms="1860" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=continueShoppingNavigationTest status=FAILURE method=CartTest.continueShoppingNavigationTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:33 EEST" name="setUp" finished-at="2026-05-19T00:52:34 EEST" duration-ms="1724" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:09 EEST" name="setUp" finished-at="2026-05-19T01:39:12 EEST" duration-ms="2500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:33 EEST" name="setUp" finished-at="2026-05-19T00:52:36 EEST" duration-ms="2902" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:09 EEST" name="tearDown" finished-at="2026-05-19T01:39:10 EEST" duration-ms="665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCartTestAndVerifyCartIsEmpty status=SUCCESS method=CartTest.removeProductFromCartTestAndVerifyCartIsEmpty()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:09 EEST" name="setUp" finished-at="2026-05-19T01:39:12 EEST" duration-ms="2531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyMultipleProductsAddedToCartAsNumbers()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:35 EEST" name="verifyMultipleProductsAddedToCartAsNumbers" finished-at="2026-05-19T00:52:42 EEST" duration-ms="7159" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The Amount of items not equal. expected [2] but found [6]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The Amount of items not equal. expected [2] but found [6]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1431)
-at org.testng.Assert.assertEquals(Assert.java:1395)
-at com.SauceDemo.Swanglabs.TestCase.CartTest.verifyMultipleProductsAddedToCartAsNumbers(CartTest.java:67)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyMultipleProductsAddedToCartAsNumbers()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:12 EEST" name="verifyMultipleProductsAddedToCartAsNumbers" finished-at="2026-05-19T01:39:15 EEST" duration-ms="3421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMultipleProductsAddedToCartAsNumbers -->
-        <test-method signature="verifyMultipleProductsAddedToCartByNames()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:36 EEST" name="verifyMultipleProductsAddedToCartByNames" finished-at="2026-05-19T00:52:43 EEST" duration-ms="6874" status="PASS">
+        <test-method signature="verifyMultipleProductsAddedToCartByNames()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:12 EEST" name="verifyMultipleProductsAddedToCartByNames" finished-at="2026-05-19T01:39:14 EEST" duration-ms="2619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMultipleProductsAddedToCartByNames -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:42 EEST" name="tearDown" finished-at="2026-05-19T00:52:43 EEST" duration-ms="608" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:14 EEST" name="tearDown" finished-at="2026-05-19T01:39:15 EEST" duration-ms="547" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMultipleProductsAddedToCartAsNumbers status=FAILURE method=CartTest.verifyMultipleProductsAddedToCartAsNumbers()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMultipleProductsAddedToCartByNames status=SUCCESS method=CartTest.verifyMultipleProductsAddedToCartByNames()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6]" started-at="2026-05-19T00:52:43 EEST" name="tearDown" finished-at="2026-05-19T00:52:43 EEST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d]" started-at="2026-05-19T01:39:15 EEST" name="tearDown" finished-at="2026-05-19T01:39:15 EEST" duration-ms="230" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyMultipleProductsAddedToCartByNames status=SUCCESS method=CartTest.verifyMultipleProductsAddedToCartByNames()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@67440de6] output={null}]]]>
+                <![CDATA[[TestResult name=verifyMultipleProductsAddedToCartAsNumbers status=SUCCESS method=CartTest.verifyMultipleProductsAddedToCartAsNumbers()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CartTest@3f4b840d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -333,178 +124,20 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.SauceDemo.Swanglabs.TestCase.CartTest -->
-      <class name="com.SauceDemo.Swanglabs.TestCase.CheckoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@889d9e8]" started-at="2026-05-19T00:52:33 EEST" name="setUp" finished-at="2026-05-19T00:52:37 EEST" duration-ms="3552" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="checkoutMandatoryFieldsTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@889d9e8]" started-at="2026-05-19T00:52:37 EEST" name="checkoutMandatoryFieldsTest" finished-at="2026-05-19T00:52:43 EEST" duration-ms="6130" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9c6ad5e1d6ecf713e3bc5229ef9441ad, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60591}, goog:processID: 24916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60591/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c6ad5e1d6ecf713e3bc5229ef9441ad]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9c6ad5e1d6ecf713e3bc5229ef9441ad, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60591}, goog:processID: 24916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60591/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c6ad5e1d6ecf713e3bc5229ef9441ad
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-at Utilis.Scroll.scrollToElement(Scroll.java:14)
-at Bases.BasePage.ClickElement(BasePage.java:31)
-at Pages.CartPage.clickCheckout(CartPage.java:44)
-at com.SauceDemo.Swanglabs.TestCase.CheckoutTest.checkoutMandatoryFieldsTest(CheckoutTest.java:17)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkoutMandatoryFieldsTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@889d9e8]" started-at="2026-05-19T00:52:43 EEST" name="setUp" finished-at="2026-05-19T00:52:44 EEST" duration-ms="1389" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@889d9e8]" started-at="2026-05-19T00:52:43 EEST" name="tearDown" finished-at="2026-05-19T00:52:44 EEST" duration-ms="1002" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkoutMandatoryFieldsTest status=FAILURE method=CheckoutTest.checkoutMandatoryFieldsTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@889d9e8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="successfulCheckoutFlow()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@889d9e8]" started-at="2026-05-19T00:52:44 EEST" name="successfulCheckoutFlow" finished-at="2026-05-19T00:52:56 EEST" duration-ms="12035" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [37a5ac475d1a5644b7404af514c9a6e5, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60657}, goog:processID: 26412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60657/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37a5ac475d1a5644b7404af514c9a6e5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [37a5ac475d1a5644b7404af514c9a6e5, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60657}, goog:processID: 26412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60657/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37a5ac475d1a5644b7404af514c9a6e5
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-at Utilis.Scroll.scrollToElement(Scroll.java:14)
-at Bases.BasePage.ClickElement(BasePage.java:31)
-at Pages.CartPage.clickCheckout(CartPage.java:44)
-at com.SauceDemo.Swanglabs.TestCase.CheckoutTest.successfulCheckoutFlow(CheckoutTest.java:31)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- successfulCheckoutFlow -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@889d9e8]" started-at="2026-05-19T00:52:56 EEST" name="tearDown" finished-at="2026-05-19T00:53:13 EEST" duration-ms="17446" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=successfulCheckoutFlow status=FAILURE method=CheckoutTest.successfulCheckoutFlow()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@889d9e8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.SauceDemo.Swanglabs.TestCase.CheckoutTest -->
       <class name="com.SauceDemo.Swanglabs.TestCase.ProductTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.ProductTest@acf859d]" started-at="2026-05-19T00:53:22 EEST" name="setUp" finished-at="2026-05-19T00:53:25 EEST" duration-ms="2772" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.ProductTest@8d7b252]" started-at="2026-05-19T01:39:32 EEST" name="setUp" finished-at="2026-05-19T01:39:34 EEST" duration-ms="1423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ClickOnProductAndVerifyIfItTheSameProduct()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.ProductTest@acf859d]" started-at="2026-05-19T00:53:25 EEST" name="ClickOnProductAndVerifyIfItTheSameProduct" finished-at="2026-05-19T00:53:33 EEST" duration-ms="7922" status="PASS">
+        <test-method signature="ClickOnProductAndVerifyIfItTheSameProduct()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.ProductTest@8d7b252]" started-at="2026-05-19T01:39:34 EEST" name="ClickOnProductAndVerifyIfItTheSameProduct" finished-at="2026-05-19T01:39:40 EEST" duration-ms="6236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnProductAndVerifyIfItTheSameProduct -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.ProductTest@acf859d]" started-at="2026-05-19T00:53:33 EEST" name="tearDown" finished-at="2026-05-19T00:53:34 EEST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.ProductTest@8d7b252]" started-at="2026-05-19T01:39:40 EEST" name="tearDown" finished-at="2026-05-19T01:39:40 EEST" duration-ms="253" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnProductAndVerifyIfItTheSameProduct status=SUCCESS method=ProductTest.ClickOnProductAndVerifyIfItTheSameProduct()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.ProductTest@acf859d] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnProductAndVerifyIfItTheSameProduct status=SUCCESS method=ProductTest.ClickOnProductAndVerifyIfItTheSameProduct()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.ProductTest@8d7b252] output={null}]]]>
               </value>
             </param>
           </params>
@@ -513,143 +146,114 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
         </test-method> <!-- tearDown -->
       </class> <!-- com.SauceDemo.Swanglabs.TestCase.ProductTest -->
       <class name="com.SauceDemo.Swanglabs.TestCase.inventoryTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:52:44 EEST" name="setUp" finished-at="2026-05-19T00:52:54 EEST" duration-ms="9863" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:15 EEST" name="setUp" finished-at="2026-05-19T01:39:19 EEST" duration-ms="3155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AddSpecificItemsToCart()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:52:54 EEST" name="AddSpecificItemsToCart" finished-at="2026-05-19T00:52:54 EEST" duration-ms="4" status="PASS">
+        <test-method signature="AddSpecificItemsToCart()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:19 EEST" name="AddSpecificItemsToCart" finished-at="2026-05-19T01:39:19 EEST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddSpecificItemsToCart -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:52:54 EEST" name="tearDown" finished-at="2026-05-19T00:52:55 EEST" duration-ms="742" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:19 EEST" name="tearDown" finished-at="2026-05-19T01:39:20 EEST" duration-ms="1355" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddSpecificItemsToCart status=SUCCESS method=inventoryTest.AddSpecificItemsToCart()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca] output={null}]]]>
+                <![CDATA[[TestResult name=AddSpecificItemsToCart status=SUCCESS method=inventoryTest.AddSpecificItemsToCart()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:52:55 EEST" name="setUp" finished-at="2026-05-19T00:52:57 EEST" duration-ms="2372" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:20 EEST" name="setUp" finished-at="2026-05-19T01:39:22 EEST" duration-ms="1548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AddToCartSuccessfully()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:52:57 EEST" name="AddToCartSuccessfully" finished-at="2026-05-19T00:53:14 EEST" duration-ms="16747" status="PASS">
+        <test-method signature="AddToCartSuccessfully()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:22 EEST" name="AddToCartSuccessfully" finished-at="2026-05-19T01:39:24 EEST" duration-ms="2428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCartSuccessfully -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:13 EEST" name="setUp" finished-at="2026-05-19T00:53:15 EEST" duration-ms="1147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:14 EEST" name="tearDown" finished-at="2026-05-19T00:53:16 EEST" duration-ms="1711" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:24 EEST" name="tearDown" finished-at="2026-05-19T01:39:24 EEST" duration-ms="220" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddToCartSuccessfully status=SUCCESS method=inventoryTest.AddToCartSuccessfully()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca] output={null}]]]>
+                <![CDATA[[TestResult name=AddToCartSuccessfully status=SUCCESS method=inventoryTest.AddToCartSuccessfully()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifyBackFromDetailReturnsToInventory()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:15 EEST" name="verifyBackFromDetailReturnsToInventory" finished-at="2026-05-19T00:53:18 EEST" duration-ms="3393" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:24 EEST" name="setUp" finished-at="2026-05-19T01:39:25 EEST" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:25 EEST" name="setUp" finished-at="2026-05-19T01:39:27 EEST" duration-ms="1864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBackFromDetailReturnsToInventory()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:25 EEST" name="verifyBackFromDetailReturnsToInventory" finished-at="2026-05-19T01:39:29 EEST" duration-ms="3186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBackFromDetailReturnsToInventory -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:16 EEST" name="setUp" finished-at="2026-05-19T00:53:17 EEST" duration-ms="1346" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:16 EEST" name="setUp" finished-at="2026-05-19T00:53:17 EEST" duration-ms="1293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyCartIconNavigatesToCartPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:17 EEST" name="verifyCartIconNavigatesToCartPage" finished-at="2026-05-19T00:53:20 EEST" duration-ms="2612" status="PASS">
+        <test-method signature="verifyCartIconNavigatesToCartPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:27 EEST" name="verifyCartIconNavigatesToCartPage" finished-at="2026-05-19T01:39:29 EEST" duration-ms="2541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartIconNavigatesToCartPage -->
-        <test-method signature="verifyClickProductImageNavigatesToDetailPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:17 EEST" name="verifyClickProductImageNavigatesToDetailPage" finished-at="2026-05-19T00:53:31 EEST" duration-ms="14394" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[ProductPageNotLoaded expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: ProductPageNotLoaded expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at com.SauceDemo.Swanglabs.TestCase.inventoryTest.verifyClickProductImageNavigatesToDetailPage(inventoryTest.java:51)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-at java.base/java.lang.Thread.run(Thread.java:1474)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyClickProductImageNavigatesToDetailPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:18 EEST" name="tearDown" finished-at="2026-05-19T00:53:18 EEST" duration-ms="348" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBackFromDetailReturnsToInventory status=SUCCESS method=inventoryTest.verifyBackFromDetailReturnsToInventory()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:18 EEST" name="setUp" finished-at="2026-05-19T00:53:20 EEST" duration-ms="1457" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:27 EEST" name="setUp" finished-at="2026-05-19T01:39:28 EEST" duration-ms="1201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:20 EEST" name="tearDown" finished-at="2026-05-19T00:53:20 EEST" duration-ms="367" status="PASS">
+        <test-method signature="verifyClickProductImageNavigatesToDetailPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:28 EEST" name="verifyClickProductImageNavigatesToDetailPage" finished-at="2026-05-19T01:39:32 EEST" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickProductImageNavigatesToDetailPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:29 EEST" name="tearDown" finished-at="2026-05-19T01:39:29 EEST" duration-ms="412" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCartIconNavigatesToCartPage status=SUCCESS method=inventoryTest.verifyCartIconNavigatesToCartPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca] output={null}]]]>
+                <![CDATA[[TestResult name=verifyBackFromDetailReturnsToInventory status=SUCCESS method=inventoryTest.verifyBackFromDetailReturnsToInventory()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifyClickProductNameNavigatesToDetailPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:20 EEST" name="verifyClickProductNameNavigatesToDetailPage" finished-at="2026-05-19T00:53:22 EEST" duration-ms="2259" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:29 EEST" name="setUp" finished-at="2026-05-19T01:39:30 EEST" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:29 EEST" name="tearDown" finished-at="2026-05-19T01:39:30 EEST" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartIconNavigatesToCartPage status=SUCCESS method=inventoryTest.verifyCartIconNavigatesToCartPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="verifyClickProductNameNavigatesToDetailPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:30 EEST" name="verifyClickProductNameNavigatesToDetailPage" finished-at="2026-05-19T01:39:39 EEST" duration-ms="8446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickProductNameNavigatesToDetailPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:22 EEST" name="tearDown" finished-at="2026-05-19T00:53:22 EEST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:32 EEST" name="tearDown" finished-at="2026-05-19T01:39:32 EEST" duration-ms="830" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyClickProductNameNavigatesToDetailPage status=SUCCESS method=inventoryTest.verifyClickProductNameNavigatesToDetailPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca] output={null}]]]>
+                <![CDATA[[TestResult name=verifyClickProductImageNavigatesToDetailPage status=SUCCESS method=inventoryTest.verifyClickProductImageNavigatesToDetailPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca]" started-at="2026-05-19T00:53:31 EEST" name="tearDown" finished-at="2026-05-19T00:53:34 EEST" duration-ms="2154" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3]" started-at="2026-05-19T01:39:39 EEST" name="tearDown" finished-at="2026-05-19T01:39:40 EEST" duration-ms="1820" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyClickProductImageNavigatesToDetailPage status=FAILURE method=inventoryTest.verifyClickProductImageNavigatesToDetailPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@ba354ca] output={null}]]]>
+                <![CDATA[[TestResult name=verifyClickProductNameNavigatesToDetailPage status=SUCCESS method=inventoryTest.verifyClickProductNameNavigatesToDetailPage()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.inventoryTest@68c87fc3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -657,20 +261,60 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.SauceDemo.Swanglabs.TestCase.inventoryTest -->
-      <class name="com.SauceDemo.Swanglabs.TestCase.RestAssuredTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.RestAssuredTest@6df3e44c]" started-at="2026-05-19T00:53:34 EEST" name="setUp" finished-at="2026-05-19T00:53:36 EEST" duration-ms="2669" status="PASS">
+      <class name="com.SauceDemo.Swanglabs.TestCase.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@31464a43]" started-at="2026-05-19T01:39:10 EEST" name="setUp" finished-at="2026-05-19T01:39:12 EEST" duration-ms="2115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="shouldLoginUsingCookies()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.RestAssuredTest@6df3e44c]" started-at="2026-05-19T00:53:36 EEST" name="shouldLoginUsingCookies" finished-at="2026-05-19T00:53:47 EEST" duration-ms="11025" status="PASS">
+        <test-method signature="checkoutMandatoryFieldsTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@31464a43]" started-at="2026-05-19T01:39:12 EEST" name="checkoutMandatoryFieldsTest" finished-at="2026-05-19T01:39:15 EEST" duration-ms="3130" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldLoginUsingCookies -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.RestAssuredTest@6df3e44c]" started-at="2026-05-19T00:53:47 EEST" name="tearDown" finished-at="2026-05-19T00:53:49 EEST" duration-ms="1937" status="PASS">
+        </test-method> <!-- checkoutMandatoryFieldsTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@31464a43]" started-at="2026-05-19T01:39:15 EEST" name="setUp" finished-at="2026-05-19T01:39:16 EEST" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@31464a43]" started-at="2026-05-19T01:39:15 EEST" name="tearDown" finished-at="2026-05-19T01:39:15 EEST" duration-ms="269" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldLoginUsingCookies status=SUCCESS method=RestAssuredTest.shouldLoginUsingCookies()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.RestAssuredTest@6df3e44c] output={null}]]]>
+                <![CDATA[[TestResult name=checkoutMandatoryFieldsTest status=SUCCESS method=CheckoutTest.checkoutMandatoryFieldsTest()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@31464a43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="successfulCheckoutFlow()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@31464a43]" started-at="2026-05-19T01:39:17 EEST" name="successfulCheckoutFlow" finished-at="2026-05-19T01:39:24 EEST" duration-ms="7843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulCheckoutFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@31464a43]" started-at="2026-05-19T01:39:24 EEST" name="tearDown" finished-at="2026-05-19T01:39:25 EEST" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulCheckoutFlow status=SUCCESS method=CheckoutTest.successfulCheckoutFlow()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.CheckoutTest@31464a43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SauceDemo.Swanglabs.TestCase.CheckoutTest -->
+      <class name="com.SauceDemo.Swanglabs.TestCase.RestAssuredTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.RestAssuredTest@4682eba5]" started-at="2026-05-19T01:39:40 EEST" name="setUp" finished-at="2026-05-19T01:39:41 EEST" duration-ms="888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldLoginUsingCookies()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.RestAssuredTest@4682eba5]" started-at="2026-05-19T01:39:41 EEST" name="shouldLoginUsingCookies" finished-at="2026-05-19T01:39:49 EEST" duration-ms="7167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLoginUsingCookies -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.RestAssuredTest@4682eba5]" started-at="2026-05-19T01:39:49 EEST" name="tearDown" finished-at="2026-05-19T01:39:50 EEST" duration-ms="1781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldLoginUsingCookies status=SUCCESS method=RestAssuredTest.shouldLoginUsingCookies()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.RestAssuredTest@4682eba5] output={null}]]]>
               </value>
             </param>
           </params>
@@ -679,11 +323,11 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
         </test-method> <!-- tearDown -->
       </class> <!-- com.SauceDemo.Swanglabs.TestCase.RestAssuredTest -->
       <class name="com.SauceDemo.Swanglabs.TestCase.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:20 EEST" name="setUp" finished-at="2026-05-19T00:53:21 EEST" duration-ms="1161" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:30 EEST" name="setUp" finished-at="2026-05-19T01:39:32 EEST" duration-ms="2417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:21 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T00:53:23 EEST" duration-ms="2168" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:32 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T01:39:41 EEST" duration-ms="8916" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -704,22 +348,22 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:23 EEST" name="tearDown" finished-at="2026-05-19T00:53:25 EEST" duration-ms="1678" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:41 EEST" name="tearDown" finished-at="2026-05-19T01:39:43 EEST" duration-ms="2310" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:25 EEST" name="setUp" finished-at="2026-05-19T00:53:28 EEST" duration-ms="2611" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:43 EEST" name="setUp" finished-at="2026-05-19T01:39:45 EEST" duration-ms="1318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:28 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T00:53:38 EEST" duration-ms="10764" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:45 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T01:39:49 EEST" duration-ms="4495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -740,22 +384,22 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:38 EEST" name="tearDown" finished-at="2026-05-19T00:53:39 EEST" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:49 EEST" name="tearDown" finished-at="2026-05-19T01:39:49 EEST" duration-ms="244" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:39 EEST" name="setUp" finished-at="2026-05-19T00:53:44 EEST" duration-ms="4451" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:49 EEST" name="setUp" finished-at="2026-05-19T01:39:50 EEST" duration-ms="849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:44 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T00:53:48 EEST" duration-ms="3944" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:50 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T01:39:52 EEST" duration-ms="1467" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -776,22 +420,22 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:48 EEST" name="tearDown" finished-at="2026-05-19T00:53:48 EEST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:52 EEST" name="tearDown" finished-at="2026-05-19T01:39:52 EEST" duration-ms="182" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:48 EEST" name="setUp" finished-at="2026-05-19T00:53:49 EEST" duration-ms="974" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:52 EEST" name="setUp" finished-at="2026-05-19T01:39:53 EEST" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:49 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T00:53:50 EEST" duration-ms="1239" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:53 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T01:39:54 EEST" duration-ms="1483" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -812,22 +456,22 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:50 EEST" name="tearDown" finished-at="2026-05-19T00:53:50 EEST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:54 EEST" name="tearDown" finished-at="2026-05-19T01:39:54 EEST" duration-ms="188" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:50 EEST" name="setUp" finished-at="2026-05-19T00:53:51 EEST" duration-ms="850" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:54 EEST" name="setUp" finished-at="2026-05-19T01:39:55 EEST" duration-ms="792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:51 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T00:53:53 EEST" duration-ms="1294" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:55 EEST" name="loginTest" data-provider="loginData" finished-at="2026-05-19T01:39:56 EEST" duration-ms="1412" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -848,11 +492,11 @@ at java.base/java.lang.Thread.run(Thread.java:1474)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365]" started-at="2026-05-19T00:53:53 EEST" name="tearDown" finished-at="2026-05-19T00:53:53 EEST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b]" started-at="2026-05-19T01:39:57 EEST" name="tearDown" finished-at="2026-05-19T01:39:57 EEST" duration-ms="161" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@4c4f4365] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.SauceDemo.Swanglabs.TestCase.LoginTest@bc0f53b] output={null}]]]>
               </value>
             </param>
           </params>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="92.004" tests="21" errors="0" skipped="0" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="63.032" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\M.HEPTON\.cache\selenium\chromedriver\win64\148.0.7778.167\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\M.HEPTON\Desktop\DEPI_Graduation_Project\Sauce_Demo\SauceDemo\SauceDemo\target\test-classes;C:\Users\M.HEPTON\Desktop\DEPI_Graduation_Project\Sauce_Demo\SauceDemo\SauceDemo\target\classes;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\M.HEPTON\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\M.HEPTON\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\M.HEPTON\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\M.HEPTON\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\M.HEPTON\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\M.HEPTON\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\M.HEPTON\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\M.HEPTON\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\M.HEPTON\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\M.HEPTON\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\M.HEPTON\.m2\repository\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\M.HEPTON\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\M.HEPTON\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\M.HEPTON\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\M.HEPTON\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\M.HEPTON\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\M.HEPTON\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\M.HEPTON\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\M.HEPTON\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\M.HEPTON\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\M.HEPTON\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\M.HEPTON\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\M.HEPTON\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\M.HEPTON\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\M.HEPTON\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\M.HEPTON\.m2\repository\io\qameta\allure\allure-testng\2.32.0\allure-testng-2.32.0.jar;C:\Users\M.HEPTON\.m2\repository\io\qameta\allure\allure-java-commons\2.32.0\allure-java-commons-2.32.0.jar;C:\Users\M.HEPTON\.m2\repository\io\qameta\allure\allure-model\2.32.0\allure-model-2.32.0.jar;C:\Users\M.HEPTON\.m2\repository\io\qameta\allure\allure-test-filter\2.32.0\allure-test-filter-2.32.0.jar;"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\M.HEPTON\AppData\Local\Temp\surefire753074221325363757\surefirebooter-20260519005219922_3.jar C:\Users\M.HEPTON\AppData\Local\Temp\surefire753074221325363757 2026-05-19T00-52-19_700-jvmRun1 surefire-20260519005219922_1tmp surefire_0-20260519005219922_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\M.HEPTON\AppData\Local\Temp\surefire7632724220497434006\surefirebooter-20260519013852120_3.jar C:\Users\M.HEPTON\AppData\Local\Temp\surefire7632724220497434006 2026-05-19T01-38-51_931-jvmRun1 surefire-20260519013852120_1tmp surefire_0-20260519013852120_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\M.HEPTON\Desktop\DEPI_Graduation_Project\Sauce_Demo\SauceDemo\SauceDemo\target\test-classes;C:\Users\M.HEPTON\Desktop\DEPI_Graduation_Project\Sauce_Demo\SauceDemo\SauceDemo\target\classes;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\M.HEPTON\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\M.HEPTON\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\M.HEPTON\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\M.HEPTON\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\M.HEPTON\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\M.HEPTON\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\M.HEPTON\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\M.HEPTON\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\M.HEPTON\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\M.HEPTON\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\M.HEPTON\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\M.HEPTON\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\M.HEPTON\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\M.HEPTON\.m2\repository\commons-codec\commons-codec\1.19.0\commons-codec-1.19.0.jar;C:\Users\M.HEPTON\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\M.HEPTON\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\M.HEPTON\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\M.HEPTON\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\M.HEPTON\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\M.HEPTON\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\M.HEPTON\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\M.HEPTON\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\M.HEPTON\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\M.HEPTON\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\M.HEPTON\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\M.HEPTON\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\M.HEPTON\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\M.HEPTON\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\M.HEPTON\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\M.HEPTON\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\M.HEPTON\.m2\repository\io\qameta\allure\allure-testng\2.32.0\allure-testng-2.32.0.jar;C:\Users\M.HEPTON\.m2\repository\io\qameta\allure\allure-java-commons\2.32.0\allure-java-commons-2.32.0.jar;C:\Users\M.HEPTON\.m2\repository\io\qameta\allure\allure-model\2.32.0\allure-model-2.32.0.jar;C:\Users\M.HEPTON\.m2\repository\io\qameta\allure\allure-test-filter\2.32.0\allure-test-filter-2.32.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,17 +30,17 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\M.HEPTON\AppData\Local\Temp\surefire753074221325363757\surefirebooter-20260519005219922_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\M.HEPTON\AppData\Local\Temp\surefire7632724220497434006\surefirebooter-20260519013852120_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="webdriver.edge.driver" value="C:\Users\M.HEPTON\.cache\selenium\msedgedriver\win64\148.0.3967.70\msedgedriver.exe"/>
     <property name="user.name" value="M.HEPTON"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\M.HEPTON\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -61,52 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="removeProductFromCartTestAndVerifyCartIsEmpty" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="5.146">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#remove\-sauce\-labs\-backpack&quot;}&#10;  (Session info: chrome=148.0.7778.168)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b935c9a0a51ed202e51d734b0b1a2a62, findElement {value=remove-sauce-labs-backpack, using=id}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60488}, goog:processID: 25880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60488/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b935c9a0a51ed202e51d734b0b1a2a62" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#remove\-sauce\-labs\-backpack"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b935c9a0a51ed202e51d734b0b1a2a62, findElement {value=remove-sauce-labs-backpack, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60488}, goog:processID: 25880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60488/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b935c9a0a51ed202e51d734b0b1a2a62
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at Utilis.Scroll.scrollToElement(Scroll.java:14)
-	at Bases.BasePage.ClickElement(BasePage.java:31)
-	at Pages.CartPage.removeBackpack(CartPage.java:59)
-	at com.SauceDemo.Swanglabs.TestCase.CartTest.removeProductFromCartTestAndVerifyCartIsEmpty(CartTest.java:20)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
+  <testcase name="continueShoppingNavigationTest" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="7.794">
     <system-out><![CDATA[No alert present to accept.
 No alert present to accept.
 No alert present to accept.
@@ -114,391 +68,158 @@ No alert present to accept.
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-May 19, 2026 12:52:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 19, 2026 1:39:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 19, 2026 1:39:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 19, 2026 1:39:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:52:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:52:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="navigateToCheckoutTest" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="5.154">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout&quot;}&#10;  (Session info: chrome=148.0.7778.168)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [41d0d3172748ff2cde47e2384bb2cd35, findElement {value=checkout, using=id}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60486}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60486/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 41d0d3172748ff2cde47e2384bb2cd35" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41d0d3172748ff2cde47e2384bb2cd35, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60486}, goog:processID: 21664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60486/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41d0d3172748ff2cde47e2384bb2cd35
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at Utilis.Scroll.scrollToElement(Scroll.java:14)
-	at Bases.BasePage.ClickElement(BasePage.java:31)
-	at Pages.CartPage.clickCheckout(CartPage.java:44)
-	at com.SauceDemo.Swanglabs.TestCase.CartTest.navigateToCheckoutTest(CartTest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
+  <testcase name="navigateToCheckoutTest" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="7.93"/>
+  <testcase name="removeProductFromCartTestAndVerifyCartIsEmpty" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="8.085"/>
+  <testcase name="verifyMultipleProductsAddedToCartByNames" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="2.427">
+    <system-out><![CDATA[No alert present to accept.
+No alert present to accept.
+]]></system-out>
+    <system-err><![CDATA[May 19, 2026 1:39:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 1:39:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 1:39:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 1:39:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
   </testcase>
-  <testcase name="continueShoppingNavigationTest" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="5.337">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#continue\-shopping&quot;}&#10;  (Session info: chrome=148.0.7778.168)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [76a851ba2466930d4f34f8ac24d3cf27, findElement {value=continue-shopping, using=id}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60487}, goog:processID: 11964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60487/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 76a851ba2466930d4f34f8ac24d3cf27" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#continue\-shopping"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [76a851ba2466930d4f34f8ac24d3cf27, findElement {value=continue-shopping, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60487}, goog:processID: 11964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60487/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 76a851ba2466930d4f34f8ac24d3cf27
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at Utilis.Scroll.scrollToElement(Scroll.java:14)
-	at Bases.BasePage.ClickElement(BasePage.java:31)
-	at Pages.CartPage.ClickOnContinueShopping(CartPage.java:49)
-	at com.SauceDemo.Swanglabs.TestCase.CartTest.continueShoppingNavigationTest(CartTest.java:50)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
+  <testcase name="verifyMultipleProductsAddedToCartAsNumbers" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="3.107">
+    <system-out><![CDATA[No alert present to accept.
+]]></system-out>
   </testcase>
-  <testcase name="verifyMultipleProductsAddedToCartAsNumbers" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="5.221">
-    <failure message="The Amount of items not equal. expected [2] but found [6]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The Amount of items not equal. expected [2] but found [6]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:1431)
-	at org.testng.Assert.assertEquals(Assert.java:1395)
-	at com.SauceDemo.Swanglabs.TestCase.CartTest.verifyMultipleProductsAddedToCartAsNumbers(CartTest.java:67)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
+  <testcase name="checkoutMandatoryFieldsTest" classname="com.SauceDemo.Swanglabs.TestCase.CheckoutTest" time="3.132"/>
+  <testcase name="successfulCheckoutFlow" classname="com.SauceDemo.Swanglabs.TestCase.CheckoutTest" time="2.928"/>
+  <testcase name="AddSpecificItemsToCart" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="0.011">
+    <system-err><![CDATA[May 19, 2026 1:39:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 1:39:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 1:39:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 1:39:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="AddToCartSuccessfully" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="2.431">
     <system-out><![CDATA[No alert present to accept.
 No alert present to accept.
 No alert present to accept.
 ]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:52:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 19, 2026 1:39:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:52:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:52:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyMultipleProductsAddedToCartByNames" classname="com.SauceDemo.Swanglabs.TestCase.CartTest" time="5.863"/>
-  <testcase name="checkoutMandatoryFieldsTest" classname="com.SauceDemo.Swanglabs.TestCase.CheckoutTest" time="6.134">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout&quot;}&#10;  (Session info: chrome=148.0.7778.168)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9c6ad5e1d6ecf713e3bc5229ef9441ad, findElement {value=checkout, using=id}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60591}, goog:processID: 24916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60591/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9c6ad5e1d6ecf713e3bc5229ef9441ad" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9c6ad5e1d6ecf713e3bc5229ef9441ad, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60591}, goog:processID: 24916, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60591/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c6ad5e1d6ecf713e3bc5229ef9441ad
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at Utilis.Scroll.scrollToElement(Scroll.java:14)
-	at Bases.BasePage.ClickElement(BasePage.java:31)
-	at Pages.CartPage.clickCheckout(CartPage.java:44)
-	at com.SauceDemo.Swanglabs.TestCase.CheckoutTest.checkoutMandatoryFieldsTest(CheckoutTest.java:17)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
-  </testcase>
-  <testcase name="successfulCheckoutFlow" classname="com.SauceDemo.Swanglabs.TestCase.CheckoutTest" time="2.025">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkout&quot;}&#10;  (Session info: chrome=148.0.7778.168)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [37a5ac475d1a5644b7404af514c9a6e5, findElement {value=checkout, using=id}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60657}, goog:processID: 26412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60657/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 37a5ac475d1a5644b7404af514c9a6e5" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [37a5ac475d1a5644b7404af514c9a6e5, findElement {value=checkout, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\M504A~1.HEP\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60657}, goog:processID: 26412, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60657/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 37a5ac475d1a5644b7404af514c9a6e5
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at Utilis.Scroll.scrollToElement(Scroll.java:14)
-	at Bases.BasePage.ClickElement(BasePage.java:31)
-	at Pages.CartPage.clickCheckout(CartPage.java:44)
-	at com.SauceDemo.Swanglabs.TestCase.CheckoutTest.successfulCheckoutFlow(CheckoutTest.java:31)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
-  </testcase>
-  <testcase name="AddSpecificItemsToCart" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="0.004">
+  <testcase name="verifyBackFromDetailReturnsToInventory" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="0.179">
     <system-out><![CDATA[No alert present to accept.
 ]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:52:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 19, 2026 1:39:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:52:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 19, 2026 1:39:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:52:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="AddToCartSuccessfully" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="16.749">
+  <testcase name="verifyCartIconNavigatesToCartPage" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="0.822">
     <system-out><![CDATA[No alert present to accept.
-No alert present to accept.
 ]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:52:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  </testcase>
+  <testcase name="verifyClickProductImageNavigatesToDetailPage" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="1.445">
+    <system-out><![CDATA[No alert present to accept.
+]]></system-out>
+    <system-err><![CDATA[May 19, 2026 1:39:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:52:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 1:39:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyBackFromDetailReturnsToInventory" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="0.905">
+  <testcase name="verifyClickProductNameNavigatesToDetailPage" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="4.708">
     <system-out><![CDATA[No alert present to accept.
 ]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:53:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 19, 2026 1:39:34 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:53:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:17 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:34 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCartIconNavigatesToCartPage" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="2.595">
-    <system-out><![CDATA[No alert present to accept.
-]]></system-out>
-  </testcase>
-  <testcase name="verifyClickProductNameNavigatesToDetailPage" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="0.847">
-    <system-out><![CDATA[No alert present to accept.
-No alert present to accept.
-]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:53:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="endToEthPurchaseTest" classname="com.SauceDemo.Swanglabs.TestCase.EndToEndTest" time="3.816">
+    <system-err><![CDATA[May 19, 2026 1:39:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:20 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:53:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="verifyClickProductImageNavigatesToDetailPage" classname="com.SauceDemo.Swanglabs.TestCase.inventoryTest" time="3.801">
-    <failure message="ProductPageNotLoaded expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: ProductPageNotLoaded expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.SauceDemo.Swanglabs.TestCase.inventoryTest.verifyClickProductImageNavigatesToDetailPage(inventoryTest.java:51)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-]]></failure>
-    <system-err><![CDATA[May 19, 2026 12:53:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="ClickOnProductAndVerifyIfItTheSameProduct" classname="com.SauceDemo.Swanglabs.TestCase.ProductTest" time="6.238">
+    <system-out><![CDATA[No alert present to accept.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest[standard_user, secret_sauce, success](1)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="6.987">
+    <system-out><![CDATA[No alert present to accept.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest[locked_out_user, secret_sauce, error](2)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="4.494">
+    <system-out><![CDATA[No alert present to accept.
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest[invalid_user, secret_sauce, error](3)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="1.47">
+    <system-out><![CDATA[No alert present to accept.
+]]></system-out>
+    <system-err><![CDATA[May 19, 2026 1:39:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 19, 2026 12:53:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="endToEthPurchaseTest" classname="com.SauceDemo.Swanglabs.TestCase.EndToEndTest" time="0.442">
-    <system-err><![CDATA[May 19, 2026 12:53:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="loginTest[, , error](4)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="1.486">
+    <system-out><![CDATA[No alert present to accept.
+]]></system-out>
+    <system-err><![CDATA[May 19, 2026 1:39:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest[standard_user, secret_sauce, success](1)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="2.17">
+  <testcase name="loginTest[standard_user, wrong_pass, error](5)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="1.411">
     <system-out><![CDATA[No alert present to accept.
 ]]></system-out>
-  </testcase>
-  <testcase name="loginTest[locked_out_user, secret_sauce, error](2)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="2.138">
-    <system-out><![CDATA[No alert present to accept.
-]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:53:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 19, 2026 1:39:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="loginTest[invalid_user, secret_sauce, error](3)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="3.946">
-    <system-out><![CDATA[No alert present to accept.
-]]></system-out>
-  </testcase>
-  <testcase name="loginTest[, , error](4)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="1.239">
-    <system-out><![CDATA[No alert present to accept.
-]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:53:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:49 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="loginTest[standard_user, wrong_pass, error](5)" classname="com.SauceDemo.Swanglabs.TestCase.LoginTest" time="1.296">
-    <system-out><![CDATA[No alert present to accept.
-]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:53:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="ClickOnProductAndVerifyIfItTheSameProduct" classname="com.SauceDemo.Swanglabs.TestCase.ProductTest" time="5.43">
-    <system-out><![CDATA[No alert present to accept.
-]]></system-out>
-  </testcase>
-  <testcase name="shouldLoginUsingCookies" classname="com.SauceDemo.Swanglabs.TestCase.RestAssuredTest" time="3.41">
+  <testcase name="shouldLoginUsingCookies" classname="com.SauceDemo.Swanglabs.TestCase.RestAssuredTest" time="3.926">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://qacart-todo.herokuapp.com/api/v1/users/register
 Proxy:			<none>
@@ -512,37 +233,41 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "maye.dickinson@gmail.com",
-    "password": "jgmo3y2xju",
-    "firstName": "Rafael",
-    "lastName": "Windler"
+    "email": "tuan.baumbach@hotmail.com",
+    "password": "ok53hx71k3sy",
+    "firstName": "Margarito",
+    "lastName": "Leffler"
 }
 HTTP/1.1 201 Created
 Access-Control-Allow-Origin: *
-Content-Length: 280
+Content-Length: 287
 Content-Type: application/json; charset=utf-8
-Date: Mon, 18 May 2026 21:53:40 GMT
-Etag: W/"118-pBWL34dBTHy/1BjPvG01dHM+2V0"
+Date: Mon, 18 May 2026 22:39:45 GMT
+Etag: W/"11f-7ptY+IuAFsh5z2w+fANa6Q1i08s"
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=%2FdetU9P%2BU2XYZ88ejV2Rsnx3BO6om6qzrKFxMJlOw%2Fs%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1779141220"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=%2FdetU9P%2BU2XYZ88ejV2Rsnx3BO6om6qzrKFxMJlOw%2Fs%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1779141220"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7GOooOAr0MmBBiklbOe%2F6wwa6SlCqRSLwd4YVT3D5z4%3D\u0026sid=812dcc77-0bd0-43b1-a5f1-b25750382959\u0026ts=1779143985"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=7GOooOAr0MmBBiklbOe%2F6wwa6SlCqRSLwd4YVT3D5z4%3D&sid=812dcc77-0bd0-43b1-a5f1-b25750382959&ts=1779143985"
 Server: Heroku
-Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGI4YTY0OWExMzMyMDAxNWZiYjJkZiIsImZpcnN0TmFtZSI6IlJhZmFlbCIsImxhc3ROYW1lIjoiV2luZGxlciIsImlhdCI6MTc3OTE0MTIyMH0.IRSRM8UHV6afn8yAEP6WxcQyZU5Rm0G5SXw9CeRioQA; Path=/
-Set-Cookie: userID=j%3A%226a0b8a649a13320015fbb2df%22; Path=/
-Set-Cookie: firstName=Rafael; Path=/
+Set-Cookie: access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGI5NTMxOWExMzMyMDAxNWZiYjMwZiIsImZpcnN0TmFtZSI6Ik1hcmdhcml0byIsImxhc3ROYW1lIjoiTGVmZmxlciIsImlhdCI6MTc3OTE0Mzk4NX0.FNUoAtA4zDn04uDli6CU-IA19hL49G61vLRNRMtBTXU; Path=/
+Set-Cookie: userID=j%3A%226a0b95319a13320015fbb30f%22; Path=/
+Set-Cookie: firstName=Margarito; Path=/
 Via: 1.1 heroku-router
 X-Powered-By: Express
 
 {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGI4YTY0OWExMzMyMDAxNWZiYjJkZiIsImZpcnN0TmFtZSI6IlJhZmFlbCIsImxhc3ROYW1lIjoiV2luZGxlciIsImlhdCI6MTc3OTE0MTIyMH0.IRSRM8UHV6afn8yAEP6WxcQyZU5Rm0G5SXw9CeRioQA",
-    "userID": "6a0b8a649a13320015fbb2df",
-    "firstName": "Rafael"
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhMGI5NTMxOWExMzMyMDAxNWZiYjMwZiIsImZpcnN0TmFtZSI6Ik1hcmdhcml0byIsImxhc3ROYW1lIjoiTGVmZmxlciIsImlhdCI6MTc3OTE0Mzk4NX0.FNUoAtA4zDn04uDli6CU-IA19hL49G61vLRNRMtBTXU",
+    "userID": "6a0b95319a13320015fbb30f",
+    "firstName": "Margarito"
 }
 ]]></system-out>
-    <system-err><![CDATA[May 19, 2026 12:53:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 19, 2026 1:39:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 148
-May 19, 2026 12:53:44 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 148.0.7778.168. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:41 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 19, 2026 1:39:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 19, 2026 1:39:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 148.0.3967.70. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>
